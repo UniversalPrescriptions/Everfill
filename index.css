@@ -1,0 +1,1155 @@
+@media screen and (max-device-width: 580px){
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	@font-face {
+		font-family: "Michroma";
+		src: url("fontss/Michroma-Regular.ttf");}
+	@font-face {
+		font-family: "Island Moments";
+		src: url("fontss/IslandMoments-Regular.ttf");}
+	@font-face {
+		font-family: "Fredericka the Great";
+		src: url("fontss/FrederickatheGreat-Regular.ttf");}
+	@font-face {
+		font-family: "Inconsolata";
+		src: url("fontss/Inconsolata-VariableFont_wdth,wght.ttf");
+	}
+	body {
+		background-color: #EFE4E4;
+	}
+	
+	h1 {
+		font-family: 'Fredericka the Great';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 45px;
+		line-height: 55px;
+	}
+	h2, h3 {
+		font-family: 'Island Moments';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 37px;
+	}
+	h4 {
+		font-family: 'Island Moments';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 37px;
+	}
+	h5 {
+		font-family: 'Michroma';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+	}
+	p {
+		font-family: 'Inconsolata';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 17px;
+		color: white;
+	}
+	.menu {
+		background-color: #EFCBCB;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		font-family: 'Michroma';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 8px;
+		padding: 5px 0px 5px 40px;
+	}
+	a:link {
+	    text-decoration: none;
+	    color: white;
+	}
+	a:visited {
+	    text-decoration: none;
+	    color: white;
+	}
+	#home {
+		flex: 1;
+		padding: 0px 0px 0px 4px;
+		margin: 0px 0px 0px 0px;
+		flex-grow: 1;
+	}
+	#about {
+		flex: 1;
+		flex-grow: 1;
+		margin: 0px 0px 0px 0px;
+	}
+	#contact {
+		flex: 1;
+		padding: 0px 4px 0px 0px;
+		margin: 0px 0px 0px 0px;
+		flex-grow: 1;
+	}	
+	.homecont1 {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		margin: 0px 0px 0px 0px;
+	}
+	.texthome {
+		order: 1;
+		margin: 35px 0px 0px -30px;
+	}
+	.fotohome {
+		order: 2;
+		justify-content: center;
+		margin: 30px 0px 0px -30px;
+	}
+	.verfoto {
+		justify-content: center;
+		align-items: center;
+	}
+
+/*--------------------------------------------------------*/
+
+	.contcont1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.textcon2 {
+		order: 1;
+		margin: 35px 0px 0px 0px;	
+		flex: 1;
+	}
+	.non {
+		display: none;
+	}
+	.fotocontacts {
+		order: 2;
+		margin: 15px;
+		justify-content: center;
+		flex: 1;
+	}
+	#conpicture {
+		width: 300px;
+	}
+	.textcontacts {
+		order: 3;
+		margin: 20px 0px 0px 0px;
+		flex: 1;
+	}
+	#listnone {
+		list-style-type: none;
+		text-align: right;
+	}
+	.li {
+		margin: 10px 0px;
+	}
+	#our {
+		margin: 0px 0px 0px 40px;
+	}
+
+	/*-------------------------------------------------*/
+
+	.listabout1 {
+		display: none;
+	}
+	.aboutcont1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.textabout {
+		order: 1;
+		margin: 20px 0px 0px 0px;
+		flex: 1;
+
+	}
+	.fotoabout {
+		order: 2;
+	}
+	.listnoneabout2 {
+		order: 3;
+		margin: 29px 0px 0px 0px;
+	}
+	#aboutpictur {
+		width: 300px;
+	}
+	#br {
+		display: none;
+	}
+	#listabout2 {
+		font-family: 'Michroma';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 34px;
+	}
+	.iap {
+		text-align: center;
+		margin: 120px 0px 70px 0px;
+	}
+	.cont2 {
+		display: flex;
+		flex-direction: column;
+	}
+	.box1 {
+		order: 2;
+		background: linear-gradient(to right, #EFCBCB, 80%, #EFE4E4);
+		padding: 12px 0px 12px 34px;
+		
+	}
+	.box2 {
+		order: 1;
+		margin: 0px 0px 17px 56px;
+	}
+	.cont3 {
+		display: flex;
+		flex-direction: column;
+	}
+	.boxx1 {
+		order: 2;
+		background: linear-gradient(to left, #EFCBCB, 80%, #EFE4E4);
+		text-align: right;
+		padding: 12px 34px 12px 0px;
+	}
+	.boxx2 {
+		order: 1;
+		text-align: right;
+		margin: 30px 56px 17px 0px;
+	}
+	.cont4 {
+		display: flex;
+		flex-direction: column;
+	}
+	.bx1 {
+		order: 2;
+		background: linear-gradient(to right, #EFCBCB, 80%, #EFE4E4);
+		padding: 12px 0px 12px 34px;
+	}
+	.bx2 {
+		order: 1;
+		margin: 30px 0px 17px 56px;
+	}
+	.cont5 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	#imggrl {
+		width: 300px;
+	}
+	.bqx1 {
+		margin: -50px 0px 0px 0px;
+	}
+	#txt1 {
+		margin: 28px 0px 0px -15px;
+	}
+	.pp1 {
+		margin: 0px 0px 0px 0px;
+		text-align: right;
+	}
+	.p2 {
+		color: black;
+	}
+	#txt2 {
+		margin: 51px -17px 0px 0px;
+		text-align: right;
+	}
+	.pp2 {
+		text-align: left;
+	}
+	.pp3 {
+		text-align: right;
+	}
+	#txt3 {
+		margin: 51px 0px 0px -15px;
+	}
+	#back {
+		margin: 52px 0px 0px 30%;
+		background-color: #EFCBCB;
+		border-radius: 20px;
+		width: 160px;
+		height: 54px;
+		padding: 0px 0px;
+		position: -webkit-sticky; /* Safari */
+	    position: sticky;
+	}
+	#backtext {
+		text-align: center;
+	}
+	.cont6 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+	}
+	.cont6box1 {
+		text-align: left;
+		order: 1;
+	}
+	.cont6box2 {
+		text-align: right;
+		order: 2;
+	}
+	#another1 {
+		color: black;
+		margin: 8px 0px 34px 0px;
+	}
+	#another2 {
+		color: black;
+		margin: 10px 0px 0px 0px;
+	}
+	.pep {
+		text-align: center;
+		margin: 45px 47px 0px 47px;
+	}
+	.block {
+		display: none;
+	}
+	.conttt {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.cttt3 {
+		order: 1;
+		flex: 1;
+		margin: 113px 0px 0px 0px;
+	}
+	.cttt {
+		order: 2;
+		flex: 1;
+		margin: 13px 18px 0px;
+	}
+	.cttt2 {
+		order: 3;
+		flex: 1;
+		margin: 30px 26px 120px 26px;
+		text-align: center;
+	}
+	#volume {
+		text-align: center;
+	}
+	.cont7box1 {
+		margin: 49px 89px 0px 92px;
+	}
+	.pup {
+		text-align: center;
+		margin: 10px 32px 0px 27px;
+	}
+	#prod {
+		text-align: center;
+		background: linear-gradient(to right, #EFCBCB, 80%, #EFE4E4);
+		padding: 20px 47px 33px 42px;
+		margin: 40px 0px 37px 0px;
+	}
+	#grafic2 {
+		width: 300px;
+		height: 230px;
+		margin: 0px 54px 70px 36px;
+	}
+	#end {
+		margin: 26px 0px;
+		text-align: center;
+	}
+	#hr {
+		width: 340px;
+		margin: 20px 5% 0px 5%;
+	}
+}
+
+@media screen and (min-device-width: 580px) and   (max-width: 769px){
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	@font-face {
+		font-family: "Michroma";
+		src: url("fontss/Michroma-Regular.ttf");}
+	@font-face {
+		font-family: "Island Moments";
+		src: url("fontss/IslandMoments-Regular.ttf");}
+	@font-face {
+		font-family: "Fredericka the Great";
+		src: url("fontss/FrederickatheGreat-Regular.ttf");}
+	@font-face {
+		font-family: "Inconsolata";
+		src: url("fontss/Inconsolata-VariableFont_wdth,wght.ttf");
+	}
+	body {
+		background-color: #EFE4E4;
+	}
+	h1 {
+		font-family: 'Fredericka the Great';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 45px;
+		line-height: 55px;
+	}
+	h2, h3 {
+		font-family: 'Island Moments';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 37px;
+	}
+	h4 {
+		font-family: 'Island Moments';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 37px;
+	}
+	h5 {
+		font-family: 'Michroma';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+	}
+	p {
+		font-family: 'Inconsolata';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 17px;
+		color: white;
+	}
+	.menu {
+		background-color: #EFCBCB;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		font-family: 'Michroma';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 8px;
+		padding: 5px 0px 5px 40px;
+	}
+	a:link {
+	    text-decoration: none;
+	    color: white;
+	}
+	a:visited {
+	    text-decoration: none;
+	    color: white;
+	}
+	#home {
+		flex: 1;
+		padding: 0px 0px 0px 4px;
+		margin: 0px 0px 0px 0px;
+		flex-grow: 1;
+	}
+	#about {
+		flex: 1;
+		flex-grow: 1;
+		margin: 0px 0px 0px 0px;
+	}
+	#contact {
+		flex: 1;
+		padding: 0px 4px 0px 0px;
+		margin: 0px 0px 0px 0px;
+		flex-grow: 1;
+	}	
+	.homecont1 {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		margin: 0px 0px 0px 0px;
+	}
+	.texthome {
+		order: 1;
+		margin: 35px 0px 0px -30px;
+	}
+	.fotohome {
+		order: 2;
+		justify-content: center;
+		margin: 30px 0px 0px -30px;
+	}
+	.verfoto {
+		justify-content: center;
+		align-items: center;
+	}
+
+/*--------------------------------------------------------*/
+
+	.contcont1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.textcon2 {
+		order: 1;
+		margin: 35px 0px 0px 0px;	
+		flex: 1;
+	}
+	.non {
+		display: none;
+	}
+	.fotocontacts {
+		order: 2;
+		margin: 15px;
+		justify-content: center;
+		flex: 1;
+	}
+	#conpicture {
+		width: 300px;
+	}
+	.textcontacts {
+		order: 3;
+		margin: 20px 0px 0px 0px;
+		flex: 1;
+	}
+	#listnone {
+		list-style-type: none;
+		text-align: right;
+	}
+	.li {
+		margin: 10px 0px;
+	}
+	#our {
+		margin: 0px 0px 0px 40px;
+	}
+
+	/*-------------------------------------------------*/
+
+	.listabout1 {
+		display: none;
+	}
+	.aboutcont1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.textabout {
+		order: 1;
+		margin: 20px 0px 0px 0px;
+		flex: 1;
+
+	}
+	.fotoabout {
+		order: 2;
+	}
+	.listnoneabout2 {
+		order: 3;
+		margin: 29px 0px 0px 0px;
+	}
+	#aboutpictur {
+		width: 300px;
+	}
+	#br {
+		display: none;
+	}
+	#listabout2 {
+		font-family: 'Michroma';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 34px;
+	}
+	.iap {
+		text-align: center;
+		margin: 120px 0px 70px 0px;
+	}
+	.cont2 {
+		display: flex;
+		flex-direction: column;
+	}
+	.box1 {
+		order: 2;
+		background: linear-gradient(to right, #EFCBCB, 80%, #EFE4E4);
+		padding: 12px 0px 12px 34px;
+		
+	}
+	.box2 {
+		order: 1;
+		margin: 0px 0px 17px 56px;
+	}
+	.cont3 {
+		display: flex;
+		flex-direction: column;
+	}
+	.boxx1 {
+		order: 2;
+		background: linear-gradient(to left, #EFCBCB, 80%, #EFE4E4);
+		text-align: right;
+		padding: 12px 34px 12px 0px;
+	}
+	.boxx2 {
+		order: 1;
+		text-align: right;
+		margin: 30px 56px 17px 0px;
+	}
+	.cont4 {
+		display: flex;
+		flex-direction: column;
+	}
+	.bx1 {
+		order: 2;
+		background: linear-gradient(to right, #EFCBCB, 80%, #EFE4E4);
+		padding: 12px 0px 12px 34px;
+	}
+	.bx2 {
+		order: 1;
+		margin: 30px 0px 17px 56px;
+	}
+	.cont5 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	#imggrl {
+		width: 300px;
+	}
+	.bqx1 {
+		margin: -50px 0px 0px 0px;
+	}
+	#txt1 {
+		margin: 28px 0px 0px -15px;
+	}
+	.pp1 {
+		margin: 0px 0px 0px 0px;
+		text-align: right;
+	}
+	.p2 {
+		color: black;
+	}
+	#txt2 {
+		margin: 51px -17px 0px 0px;
+		text-align: right;
+	}
+	.pp2 {
+		text-align: left;
+	}
+	.pp3 {
+		text-align: right;
+	}
+	#txt3 {
+		margin: 51px 0px 0px -15px;
+	}
+	#back {
+		margin: 52px 0px 0px 30%;
+		background-color: #EFCBCB;
+		border-radius: 20px;
+		width: 160px;
+		height: 54px;
+		padding: 0px 0px;
+		position: -webkit-sticky; /* Safari */
+	    position: sticky;
+	}
+	#backtext {
+		text-align: center;
+	}
+	.cont6 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+	}
+	.cont6box1 {
+		text-align: left;
+		order: 1;
+	}
+	.cont6box2 {
+		text-align: right;
+		order: 2;
+	}
+	#another1 {
+		color: black;
+		margin: 8px 0px 34px 0px;
+	}
+	#another2 {
+		color: black;
+		margin: 10px 0px 0px 0px;
+	}
+	.pep {
+		text-align: center;
+		margin: 45px 47px 0px 47px;
+	}
+	.block {
+		display: none;
+	}
+	.conttt {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.cttt3 {
+		order: 1;
+		flex: 1;
+		margin: 113px 0px 0px 0px;
+	}
+	.cttt {
+		order: 2;
+		flex: 1;
+		margin: 13px 18px 0px;
+	}
+	.cttt2 {
+		order: 3;
+		flex: 1;
+		margin: 30px 26px 120px 26px;
+		text-align: center;
+	}
+	#volume {
+		text-align: center;
+	}
+	.cont7box1 {
+		margin: 49px 89px 0px 92px;
+	}
+	.pup {
+		text-align: center;
+		margin: 10px 32px 0px 27px;
+	}
+	#prod {
+		text-align: center;
+		background: linear-gradient(to right, #EFCBCB, 80%, #EFE4E4);
+		padding: 20px 47px 33px 42px;
+		margin: 40px 0px 37px 0px;
+	}
+	#grafic2 {
+		width: 300px;
+		height: 230px;
+		margin: 0px 54px 70px 36px;
+	}
+	#end {
+		margin: 26px 0px;
+		text-align: center;
+	}
+	#hr {
+		width: 340px;
+		margin: 20px 5% 0px 5%;
+	}
+}
+
+/* ------- Ниже код для сайта компьютера -------------------------------*/
+
+@media screen and (min-width: 769px) {
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	@font-face {
+		font-family: "Michroma";
+		src: url("fontss/Michroma-Regular.ttf");}
+	@font-face {
+		font-family: "Island Moments";
+		src: url("fontss/IslandMoments-Regular.ttf");}
+	@font-face {
+		font-family: "Fredericka the Great";
+		src: url("fontss/FrederickatheGreat-Regular.ttf");}
+	@font-face {
+		font-family: "Inconsolata";
+		src: url("fontss/Inconsolata-VariableFont_wdth,wght.ttf");
+	}
+	body {
+		background-color: #EFE4E4;}
+	#brp {
+		display: none;
+	}
+	h1 {
+		font-family: 'Fredericka the Great';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 70px;
+		line-height: 86px;
+	}
+	h2 {
+		font-family: 'Island Moments';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 50px;
+		line-height: 58px;
+	}
+	h3 {
+		font-family: 'Island Moments';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 64px;
+		line-height: 74px;
+	}
+	.menu {
+		font-family: 'Michroma';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 20px;
+		background-color: #EFCBCB;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		width: 381px;
+		padding: 19px 23px;
+		border-radius: 0px 0px 20px 20px;
+		margin: 0px 210px 0px 830px;
+	}
+	a:link {
+	    text-decoration: none;
+	    color: white;
+	}
+	a:visited {
+	    text-decoration: none;
+	    color: white;
+	}
+	.homecont1 {
+		display: flex;
+		align-items: flex-start;
+	}
+	.fotohome {
+		order: 1;
+		margin: -58px 0px 0px 220px;
+	}
+	.texthome {
+		order: 2;
+		margin: 187px 235px 0px 12px;
+	}
+	.ftb {
+		order: 3;
+	}
+
+	/*--------------------------*/
+
+	.contcont1 {
+		display: flex;
+		align-items: flex-start;
+	}
+	.textcontacts {
+		order: 2;
+		margin: 60px 0px 0px 0px;
+	}
+	.fotocontacts {
+		order: 1;
+		margin: 66px 30px 0px 220px;
+	}
+	.listcontact {
+		display: flex;
+		margin: 30px 0px 0px 200px;
+	}
+	#listnone {
+		list-style-type: none;
+		text-align: right;
+		font-family: 'Michroma';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 70px;
+	}
+	.textcon2 {
+		display: none;
+	}
+	/*----------------*/
+	#br2 {
+		display: none;
+	}
+	.aboutcont1{
+		display: flex;
+		align-items: flex-start;
+	}
+	.textabout {
+		order: 2;
+		margin: 70px 0px 0px 40px;
+	}
+	.fotoabout {
+		order: 1;
+		margin: 66px 30px 0px 220px;
+	}
+	.listabout1 {
+		display: flex;
+		margin: 30px 0px 0px 80px;	
+	}
+	#listnoneabout {
+		text-align: right;
+		line-height: 70px;	
+		font-family: 'Michroma';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+	} 
+	.listnoneabout2 {
+		display: none;
+	}
+	.iap {
+		padding: 200px 0px 60px;
+	}
+	h4 {
+		text-align: center;
+		font-family: 'Island Moments';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 64px;
+		line-height: 74px;
+	}
+	h5 {
+		font-family: 'Michroma';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 46px;
+		text-align: center;
+	}
+	p {
+		font-family: 'Inconsolata';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 25px;
+		text-align: center;
+		color: white;
+	}
+	.p2 {
+		color: black;
+	}
+	.cont2 {
+		display: flex;
+		flex-direction: row;
+		margin: 0px 0px 180px 0px;
+	}
+	.box1 {
+		order: 1;
+	 	flex: 3;
+	 	padding: 15px 15px 15px 50px;
+	 	background: linear-gradient(to right, #EFCBCB, 80%, #EFE4E4);
+	}
+	.box2 {
+		order: 2;
+		flex: 2;
+		padding: 65px 0px;
+		margin: 0px 70px 0px 0px;
+	}
+	.cont3 {
+		display: flex;
+		flex-direction: row;
+		margin: 0px 0px 180px 0px;
+	}
+	.boxx1 {
+		flex: 3;
+	 	padding: 15px;
+	 	background: linear-gradient(to left, #EFCBCB, 80%, #EFE4E4);
+	 	order: 2;
+	 }
+	.boxx2 {
+		flex: 2;
+		padding: 65px 0px;
+		margin: 0px 70px 0px 0px;
+		order: 1;
+	}
+	.cont4 {
+		display: flex;
+		flex-direction: row;
+		margin: 0px 0px 0px 0px;
+	}
+	.bx1 {
+		order: 1;
+	 	flex: 3;
+	 	padding: 15px 15px 15px 50px;
+	 	background: linear-gradient(to right, #EFCBCB, 80%, #EFE4E4);
+	}
+	.bx2 {
+		order: 2;
+		flex: 2;
+		padding: 65px 0px;
+		margin: 0px 70px 0px 0px;
+	}
+	.cont5 {
+		display: flex;
+		flex-direction: row;
+		margin: 0px 0px 130px 0px;
+	}
+	.bqx1 {
+		order: 1;
+		margin: 0px 0px 0px 180px;
+	}
+	.bqx2 {
+		order: 2;
+		display: flex;
+		flex-direction: column;
+	}
+	.bqx2next1 {
+		margin: 60px 0px;
+	}
+	.bqx2next2 {
+		margin: 60px 0px;
+	}
+	.bqx2next3 {
+		margin: 60px 0px;
+	}
+	.pp1 {
+		margin: 0px 0px 0px 90px;
+	}
+	.pp2 {
+		margin: 0px 0px 0px 17px;
+	}
+	.pp3 {
+		margin: 0px 0px 0px 102px;
+		text-align: left;
+	}
+	#txt1 {
+		margin: 0px 0px 0px -94px;
+	}
+	#txt2 {
+		margin: 0px 0px 0px 218px;
+	}
+	#txt3 {
+		margin: 0px 0px 0px -33px;
+	}
+	#back {
+		margin: 0px 0px 0px 45%;
+		background-color: #EFCBCB;
+		border-radius: 20px;
+		width: 160px;
+		height: 54px;
+		padding: 0px 0px;
+		position: -webkit-sticky; /* Safari */
+	    position: sticky;
+	}
+	#backtext {
+		text-align: center;
+	}
+	.cont6 {
+		display: flex;
+		flex-direction: row;
+		margin: 50px 0px 83px 0px;
+	}
+	.cont6box1 {
+		order: 1;
+		flex: 1;
+	}
+	.cont6box2 {
+		order: 2;
+		flex: 1;
+	}
+	#another1 {
+		color: black;
+		text-align: left;
+		margin: 0px 0px 0px 180px;
+	}
+	#another2 {
+		color: black;
+		text-align: right;
+		margin: 0px 180px 0px 0px;
+	}
+	.iap2 {
+		margin: -0px 0px 0px 0px;
+	}
+	.pep {
+		margin: 0px 16% 230px 16%;
+	}
+	.block {
+		margin: 0px 20% 200px 20%;
+	}
+	.cont7 {
+		display: flex;
+		margin: 0px 0px 200px 0px;
+	} 
+	.cont7box1 {
+		order: 1;
+		flex: 1;
+		margin: 0px -70px 0px 0px;
+		text-align: left;
+	}
+	.cont7box2 {
+		order: 2;
+		flex: 1;
+	}
+	#vol {
+		margin: 120px 0px;
+	}
+	.pup {
+		text-align: left;
+	}
+	#din {
+		margin: 0px 0px 0px 200px; 
+	}
+	#produced {
+		background: linear-gradient(to right, #EFCBCB, 60%, #EFE4E4);
+	}
+	#prod {
+		margin: 0px 38% 100px 17%;
+		padding: 34px 0px 34px 0px;
+	}
+	#grafic {
+		margin: 0px 0px 119px 22%;
+	}
+	#hr {
+		margin: 100px 12% 50px 12%;
+		width: 1000px;
+	}
+	#end {
+		font-size: 36px;
+	}
+	#end1 {
+		margin: 0px 0px 0px 7px;
+	}
+	#end {
+		margin: 0px 20% 30px 41%;
+	}
+	#none5 {
+		display: none;
+	}
+	.conttt {
+		display: none;
+	}
+}
+
+/*  Код для адаптации под смартфоны  HOME */
